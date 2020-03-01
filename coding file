@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head><strong>HOMEPAGE<stong></head>
+    <body >
+        <h1>this is the homepage</h1>
+        
+        <p>this is a sentence</p>    
+          <ul>
+             <!-- unordered list -->
+              <li>download brackets, git</li>
+              <li>github account</li>
+              <li>create a website</li>
+              <li>git add -A</li>
+              <li>git commite -m "any message"</li>
+              <li>git push</li>
+              <li >create index.html (default page)</li>
+          </ul>
+        <div>this is a div</div>
+        <h3>HTML: hypertext markup language</h3>
+        
+        <fieldset><legend>time</legend>2:14 pm</fieldset>
+    
+    </body>
