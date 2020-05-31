@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #container {
+            width: 606px;
+            height: 400px;
+            border: double blue;
+        }
+
+        .item {
+            height: 200px;
+            width: 300px;
+            float: left;
+        }
+
+        #left {
+            background-color: deepskyblue;
+            border: solid 20px;
+            /*            box sizing decides what the width and height will be*/
+            box-sizing: border-box;
+            padding: 10px;
+        }
+
+        #right {
+            background-color: lime;
+        }
+
+        table td {
+            padding: 10px 20px;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div class='item' id="left">left</div>
+        <div class='item' id="right">right</div>
+    </div>
+    <table border>
+        <tr>
+            <td>name</td>
+            <td>phone</td>
+        </tr>
+        <tr>
+            <td>Joe</td>
+            <td>111-1111111</td>
+        </tr>
+        <tr>
+            <td>Jane</td>
+            <td>222-2222222</td>
+        </tr>
+    </table>
+</body>
+
+</html>

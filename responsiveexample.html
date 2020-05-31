@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        nav {
+            float: right;
+            border: solid;
+
+        }
+
+        main {
+            clear: both;
+            border: solid;
+
+        }
+
+        li {
+            display: inline-block;
+            padding-left: 50px;
+
+        }
+
+        @media screen and (min-width: 576px) {
+            nav {
+                float: left;
+            }
+
+            li {
+                display: block;
+            }
+
+            main {
+                float: right;
+                width: 70%;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <nav>
+            <ul>
+                <li>Hompage</li>
+                <li>Block</li>
+            </ul>
+        </nav>
+        <main>
+            <section>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur recusandae, maiores dolores, neque harum quos hic, nam, architecto perspiciatis dignissimos nemo voluptates cupiditate voluptate deleniti velit! Deleniti distinctio, doloremque asperiores!</section>
+            <section>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem ipsam, autem, ab excepturi enim laborum asperiores accusamus illum itaque nesciunt repellat culpa eius eaque incidunt, facilis id laudantium. Ipsa, voluptatem!</section>
+        </main>
+    </div>
+</body></html>

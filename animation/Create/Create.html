@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        ul {
+            list-style: none;
+            font-size: 3rem;
+        }
+        li {
+            border: solid blue;
+            
+        }
+/*        this will happen before the text aka (li)*/
+/*        psuedo selector*/
+        li:before {
+            content: 'I like '
+        }
+        li:after {
+            content: '.';
+                width: 20px;
+            height: 20px;
+            display: block;
+            background-image: url(https://images.pexels.com/photos/36753/flower-purple-lical-blosso.jpg?auto=compress&cs=tinysrgb&h=650&w=940);
+            background-size:cover
+        }
+    </style>
+</head>
+<body>
+<!--   create elements with CSS-->
+    <ul>
+        <li>tennis</li>
+        <li>watch movies</li>
+        <li>playing with friends</li>
+        <li>Thinking</li>
+        <li>Hiking</li>
+    </ul>
+</body>
+</html>

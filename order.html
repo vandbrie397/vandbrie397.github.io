@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .Info {
+            border: solid 1px;
+        }
+
+        input {
+            width: 200px;
+        }
+
+        .Food {
+            border: solid 1px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <p1>Information</p1>
+    <div>
+        <div class='Info'>
+            <p>Name</p>
+            <input type="text" placeholder="Please enter your full Name" name='first_name' required>
+            <p>Phone</p><input type="tel" placeholder="Please enter your full number" required>
+            <p>Email</p>
+            <input type="text" placeholder="Please enter your full email" required>
+            <p>Address</p>
+            <input type="text" placeholder="Please enter your full address" required>
+        </div>
+        <br>
+        <br>
+        <p1>Order Information</p1>
+        <div class='Food'>
+            <input id='Food1' type="radio" name='Food1'><label for="Food1">Food1</label>
+            <br>
+            <br>
+            <input id='Food2' type="radio" name='Food2'><label for="Food2">Food2</label>
+            <br>
+            <br>
+            <input id='Food3' type="radio" name='Food3'><label for="Food3">Food3</label>
+            <br>
+            <br>
+            <p>Number of people (1-10)</p>
+            <input type="number" min='1' max='10' required>
+            <p>Date</p>
+            <input type="date" required>
+            <p>Time</p>
+            <input type="time" required>
+            <br>
+            <input id='Mastercard' type="radio" name='card'><label for="Mastercard">Master card</label>
+            <br>
+            <br>
+            <input id='Paypal' type="radio" name='card'><label for="Paypal">Paypal</label>
+            <br>
+            <br>
+            <input id='Visacard' type="radio" name='card'><label for="Visacard">Visa card</label>
+        </div>
+        <br>
+        <div class='Submit'>
+            <input type="submit" value='Submit'>
+
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+/*        <576px*/
+        div {
+/*            width: 300px;*/
+            height: 200px;
+            border: solid;
+           
+        }
+        @media all and (min-width: 576px){
+            div { background-color: red;}
+            div:before {
+                content: 'small phone'
+            }
+        }
+/*        @media print and (min-width: 576px) */
+        
+/*        >=576*/
+/*        >=768px*/
+/*        >=992px*/
+/*        >1200*/
+          }
+        @media all and (min-width: 768px){
+            div {display: inline-block;
+            width: 50%;}
+            div:before {
+                content: 'phone'
+            }
+        }
+        @media all and (min-width: 992px) {
+            div {
+                width 33%;
+                background-color: blue;
+                
+            }
+            div:before {
+                content: 'big phone'
+            }
+            
+        
+        
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li>responsive design changes the screen of your website to fit the screen you are currently using </li>
+    <li>we do "mobile first" which means we will do design interface for mobile first</li>
+</ul>
+<!-- responsive design changes the screen of your website to fit the screen you are currently using   -->
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+</body>
+</html>

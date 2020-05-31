@@ -1,0 +1,117 @@
+<!--Richard Ding-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        /*       
+        layout: float, inline-block
+        position: relative, absolute, fixed
+        box model: content, padding, border, margin
+        */
+        header {
+            background-image: url(http://blackrockdigital.github.io/startbootstrap-clean-blog/img/home-bg.jpg);
+            background-size: cover;
+            position: relative;
+            font-family: 'Open Sans', sans-serif;
+            /*            filter: brightness(0.6);*/
+            background-position: 0px -72px;
+        }
+
+        .header {
+            color: white;
+        }
+
+        nav {
+            padding: 25px;
+            padding-left: 60px;
+            position: relative;
+            z-index: 1;
+        }
+
+        header ul {
+            display: inline-block;
+            position: absolute;
+            right: 50px;
+            font-weight: 800;
+            letter-spacing: 1px;
+        }
+
+        header ul li {
+            text-transform: uppercase;
+            margin-right: 36px;
+            display: inline-block;
+        }
+
+        header ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 12px;
+        }
+
+        header #overlay {
+            /*            background-color: rgba(0, 0, 0, 0.43);*/
+            background-color: #212529;
+            opacity: 0.5;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+        }
+
+        .name {
+            font-size: 20px;
+            display: inline-block;
+        }
+
+        #banner {
+            padding: 159px;
+            padding-top: 108px;
+            text-align: center;
+            margin: auto;
+            color: white;
+            position: relative;
+        }
+
+        .title {
+            font-size: 85px;
+            font-weight: 800;
+        }
+
+        .subtitle {
+            font-size: 24px;
+            font-weight: 200;
+           
+        }
+    </style>
+</head>
+
+<body>
+    <!-- data and good semantic -->
+    <header>
+        <div id="overlay"></div>
+        <nav>
+            <div class="header name"><b>Start Bootstrap</b></div>
+            <ul>
+                <li class='header home'><a href="">Home</a></li>
+                <li class='header about'><a href="">About</a></li>
+                <li class='header post'><a href="">Sample Post</a></li>
+                <li class='header contact'><a href="">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="banner">
+            <div class="title">Clean Blog</div>
+            <div class="subtitle">A Blog Theme by Start Bootstrap</div>
+        </div>
+    </header>
+</body></html>
+

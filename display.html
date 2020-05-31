@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div {
+            border: solid;
+            width: 200px;
+            height: 200px;
+
+        }
+
+        p {
+            border: solid red;
+            display: inline;
+            font-size 100px;
+            /*line-height does not work*/
+            /*width and height property have no effect*/
+        }
+
+        section {
+            border: solid;
+            display: inline-block;
+            height: 200px;
+            font-size: 50px;
+        }
+
+        header {
+            display: none;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!--  we know we can use display to change the elements type such as inline-block and block -->
+    <div></div>
+    <li>width goes all the way across the screen</li>
+    <li>height is 0</li>
+    <li>specifying width and height works</li>
+    <li>height is what depends on font-size</li>
+    <li>no height no width</li>
+    <li>width and height work</li>
+    <p></p>
+    <!-- inline-block element -->
+    <section>hello</section>
+    <hr>
+    <header>header disspeared</header>
+    <span>span following header</span>
+</body>
+
+</html>

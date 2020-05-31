@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        #container {
+            width: 800px;
+            height: 600px;
+            background: linear-gradient(to right, lightcoral, lightblue);
+            padding-top: 100px;
+        }
+        /*if max width<width then max width picked up
+        if min width> max width then min width is picked up*/
+        #item {
+            height: 400px;
+            border:solid;
+            width: 600px;
+            max-width: 300px;
+            min-width: 500px;
+        }
+        #item2 {
+            background-color: orangered;
+            height: 200px;
+            border: solid 20px;
+            width: auto;
+            font-size: 11rem;
+            max-width: 1000px;
+            min-width: 600px;
+            /*we can set element width in a range*/
+        }
+    </style>
+</head>
+<body>
+    <div id='container'>
+        
+        
+        
+    </div>
+    <div id='item'></div>
+    <div id='item2'>Sunday</div>
+    
+</body>
+</html>
